@@ -1,0 +1,36 @@
+.square {
+  width: 60px  !important;
+  height: 60px !important;
+  
+}
+.pink {
+  background-color: pink;
+  
+}
+.yellow {
+  background-color: yellow;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 60px 60px 60px;
+    
+    
+  }
+  .grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    /* font-size: 30px;
+    text-align: center; */
+  }
+  .board-grid {
+    display: grid;
+    grid-template-columns: 190px 190px 190px;
+    
+  }
+.square-border
+{   
+    background-color: blue;
+    padding: 5px;
+    
+
+}
